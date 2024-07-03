@@ -27430,7 +27430,9 @@ var About = function() {
         className: "flex justify-center"
     }, /*#__PURE__*/ (0, _reactDefault.default).createElement("button", {
         className: "inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-    }, "Button"))))));
+    }, "Button"), /*#__PURE__*/ (0, _reactDefault.default).createElement("button", {
+        className: "inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+    }, "Cancel"))))));
 };
 _c = About;
 exports.default = About;

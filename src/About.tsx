@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = (): JSX.Element => {
+const About = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
@@ -17,6 +17,9 @@ const About = (): JSX.Element => {
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Button
+              </button>
+              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Cancel
               </button>
             </div>
           </div>
